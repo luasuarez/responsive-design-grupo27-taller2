@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&display=swap');
+
+body, main{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-complete{
+    width: 100%;
+    height: 10vh;
+}
+
+.menu-complete .row{
+    width: 100%;
+    height: 10vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
+
+.menu-complete .row ul{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-complete .row ul li{
+    font-family: cursive;
+    font-size: 1.5em;
+    padding: 5px 10px;
+    list-style: none;
+}
+
+.menu-complete .row ul li:hover{
+    background-color: lightblue;
+}
+
+.menu-complete .row ul li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.menu-mobile{
+    display: none;
+}
